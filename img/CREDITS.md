@@ -17,6 +17,7 @@
 | beverages.jpg | File:(20240728) Rotterdam V11 Aperol Spritz.jpg | CC BY-SA 4.0 | Roy Zuo |
 | tea.jpg | File:Loose Leaf Tisanes - Sparrows Coffee.jpg | CC BY 2.0 | Steven Depolo |
 | logo.png | Фирменный логотип EasyItaly (из материалов проекта) | — | EasyItaly Srl |
+| snacks.jpg | Фирменное фото снеков (из материалов проекта) | — | EasyItaly Srl |
 
 Изображения скачаны с commons.wikimedia.org через API. При размещении сайта
 публично сохраните этот файл с указанием авторов (требование лицензий CC BY / CC BY-SA).
