@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — EasyItaly</title>
+  <meta name="description" content="Свяжитесь с EasyItaly: форма запроса на русском или английском. Производителям, импортёрам и дистрибьюторам итальянских продуктов.">
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- SEO: canonical, hreflang, Open Graph, Twitter -->
+  <link rel="canonical" href="https://www.easyitaly.com/contacts.html">
+  <link rel="alternate" hreflang="ru" href="https://www.easyitaly.com/contacts.html">
+  <link rel="alternate" hreflang="en" href="https://www.easyitaly.com/contacts.html?lang=en">
+  <link rel="alternate" hreflang="it" href="https://www.easyitaly.com/contacts.html?lang=it">
+  <link rel="alternate" hreflang="uz" href="https://www.easyitaly.com/contacts.html?lang=uz">
+  <link rel="alternate" hreflang="x-default" href="https://www.easyitaly.com/contacts.html">
+  <meta property="og:title" content="Контакты — EasyItaly">
+  <meta property="og:description" content="Свяжитесь с EasyItaly: форма запроса на русском или английском. Производителям, импортёрам и дистрибьюторам итальянских продуктов.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="EasyItaly">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="uz_UZ">
+  <meta property="og:url" content="https://www.easyitaly.com/contacts.html">
+  <meta property="og:image" content="https://www.easyitaly.com/img/tuscany.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Контакты — EasyItaly">
+  <meta name="twitter:description" content="Свяжитесь с EasyItaly: форма запроса на русском или английском. Производителям, импортёрам и дистрибьюторам итальянских продуктов.">
+  <meta name="twitter:image" content="https://www.easyitaly.com/img/tuscany.jpg">
+  <meta name="robots" content="index, follow">
+</head>
+<body data-page="contacts">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero page-hero" style="background-image:url('img/market.jpg')">
+      <div class="container">
+        <span class="eyebrow" data-i18n="contacts.hero.eyebrow">Контакты</span>
+        <h1 data-i18n="contacts.hero.title">Напишите нам</h1>
+        <p class="lead" data-i18n="contacts.hero.lead">Оставьте запрос на русском или английском — бизнес-запросы мы рассматриваем в течение двух рабочих дней.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split" style="align-items:start">
+        <!-- Форма -->
+        <div class="reveal">
+          <div class="section-head" style="margin-bottom:28px">
+            <div class="kicker" data-i18n="contacts.form.kicker">Форма запроса</div>
+            <h2 data-i18n="contacts.form.title">Написать нам</h2>
+          </div>
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div><label data-i18n="contacts.form.name">Ваше имя</label>
+                <input name="name" required data-i18n-ph="contacts.form.namePh" placeholder="Имя и фамилия"></div>
+              <div><label data-i18n="contacts.form.company">Компания</label>
+                <input name="company" data-i18n-ph="contacts.form.companyPh" placeholder="Название компании"></div>
+              <div><label data-i18n="contacts.form.country">Страна / рынок</label>
+                <input name="country" data-i18n-ph="contacts.form.countryPh" placeholder="например, Казахстан"></div>
+              <div><label data-i18n="contacts.form.email">E-mail</label>
+                <input type="email" name="email" data-i18n-ph="contacts.form.emailPh" placeholder="name@company.com"></div>
+              <div class="full"><label data-i18n="contacts.form.role">Вы</label>
+                <select name="role">
+                  <option data-i18n="contacts.form.role1">Производитель (хочу войти в портфель)</option>
+                  <option data-i18n="contacts.form.role2">Импортёр / дистрибьютор (интересует портфель)</option>
+                  <option data-i18n="contacts.form.role3">Другой запрос</option>
+                </select></div>
+              <div class="full"><label data-i18n="contacts.form.lang">Предпочтительный язык</label>
+                <select name="lang">
+                  <option>Русский</option>
+                  <option>English</option>
+                  <option>Italiano</option>
+                </select></div>
+              <div class="full"><label data-i18n="contacts.form.msg">Сообщение</label>
+                <textarea name="message" data-i18n-ph="contacts.form.msgPh" placeholder="Кратко о запросе: продукты, объёмы, рынок…"></textarea></div>
+              <div class="full">
+                <button type="submit" class="btn btn-primary" data-i18n="contacts.form.btn">Отправить запрос</button>
+                <div class="form-success" id="form-success" data-i18n="contacts.form.success">Форма подготовлена. Нажмите «Отправить» — откроется почтовый клиент с готовым письмом.</div>
+                <p class="note" style="margin-top:12px" data-i18n="contacts.form.note">Форма работает через e-mail. Для продакшн-версии сайта подключите её к почтовому сервису.</p>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Прямые контакты -->
+        <div class="reveal">
+          <div class="section-head" style="margin-bottom:20px">
+            <div class="kicker" data-i18n="contacts.info.kicker">Прямые контакты</div>
+            <h2 data-i18n="contacts.info.title">EasyItaly Srl</h2>
+            <p class="sub" data-i18n="contacts.info.role">Международный дистрибьютор продуктов питания</p>
+          </div>
+          <div class="contact-item"><div class="icon">📍</div><div><h4 data-i18n="contacts.info.addressT">Офис</h4><p data-i18n="contacts.info.address">Тоскана, Италия (адрес добавляется из документов компании)</p></div></div>
+          <div class="contact-item"><div class="icon">✉️</div><div><h4 data-i18n="contacts.info.emailT">E-mail</h4><p data-i18n="contacts.info.email">manager@easyitaly.info</p></div></div>
+          <div class="contact-item"><div class="icon">📞</div><div><h4 data-i18n="contacts.info.phoneT">Телефон</h4><p data-i18n="contacts.info.phone">+39 XXX XXX XXXX — будет добавлен</p></div></div>
+          <div class="contact-item"><div class="icon">🗣️</div><div><h4 data-i18n="contacts.info.langsT">Языки</h4><p data-i18n="contacts.info.langs">Русский, английский, итальянский — ведём переговоры на удобном вам языке</p></div></div>
+
+          <div style="margin-top:34px">
+            <h3 style="font-size:16px" data-i18n="contacts.markets.title">С какими рынками работаем</h3>
+            <p style="color:var(--muted);font-size:14.4px;margin-top:8px" data-i18n="contacts.markets.p">Основной фокус — страны Азии и СНГ. Если вашего рынка нет в списке — всё равно напишите: мы регулярно открываем новые направления.</p>
+            <div class="flag-stripe" style="margin-top:18px"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/site.js"></script>
+</body>
+</html>

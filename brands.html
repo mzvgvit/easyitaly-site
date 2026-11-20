@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бренды и портфель — EasyItaly</title>
+  <meta name="description" content="Портфель EasyItaly: паста, соусы и масла, сыры и мясные деликатесы, вино, кофе, чай, сладости, бакалея и снеки. Фильтр по категориям.">
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- SEO: canonical, hreflang, Open Graph, Twitter -->
+  <link rel="canonical" href="https://www.easyitaly.com/brands.html">
+  <link rel="alternate" hreflang="ru" href="https://www.easyitaly.com/brands.html">
+  <link rel="alternate" hreflang="en" href="https://www.easyitaly.com/brands.html?lang=en">
+  <link rel="alternate" hreflang="it" href="https://www.easyitaly.com/brands.html?lang=it">
+  <link rel="alternate" hreflang="uz" href="https://www.easyitaly.com/brands.html?lang=uz">
+  <link rel="alternate" hreflang="x-default" href="https://www.easyitaly.com/brands.html">
+  <meta property="og:title" content="Бренды и портфель — EasyItaly">
+  <meta property="og:description" content="Портфель EasyItaly: паста, соусы и масла, сыры и мясные деликатесы, вино, кофе, чай, сладости, бакалея и снеки. Фильтр по категориям.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="EasyItaly">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="uz_UZ">
+  <meta property="og:url" content="https://www.easyitaly.com/brands.html">
+  <meta property="og:image" content="https://www.easyitaly.com/img/tuscany.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Бренды и портфель — EasyItaly">
+  <meta name="twitter:description" content="Портфель EasyItaly: паста, соусы и масла, сыры и мясные деликатесы, вино, кофе, чай, сладости, бакалея и снеки. Фильтр по категориям.">
+  <meta name="twitter:image" content="https://www.easyitaly.com/img/tuscany.jpg">
+  <meta name="robots" content="index, follow">
+</head>
+<body data-page="brands">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero page-hero" style="background-image:url('img/pasta.jpg')">
+      <div class="container">
+        <span class="eyebrow" data-i18n="brands.hero.eyebrow">Бренды и портфель</span>
+        <h1 data-i18n="brands.hero.title">Вкус Италии — по категориям</h1>
+        <p class="lead" data-i18n="brands.hero.lead">EasyItaly дистрибутирует продукцию известных итальянских брендов и помогает им выходить на новые рынки. Ниже — категории нашего портфеля.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filters" id="brand-filters">
+          <button data-filter="all" class="active" data-i18n="brands.filter.all">Все</button>
+          <button data-filter="pasta" data-i18n="brands.filter.pasta">Паста</button>
+          <button data-filter="sauces" data-i18n="brands.filter.sauces">Соусы и масла</button>
+          <button data-filter="gastronomy" data-i18n="brands.filter.gastronomy">Гастрономия</button>
+          <button data-filter="sweets" data-i18n="brands.filter.sweets">Сладости и чай</button>
+          <button data-filter="drinks" data-i18n="brands.filter.drinks">Напитки</button>
+          <button data-filter="grocery" data-i18n="brands.filter.grocery">Бакалея и снеки</button>
+        </div>
+
+        <div class="grid grid-3" id="brand-grid">
+          <div class="photo-card" data-cat="pasta">
+            <div class="ph" style="background-image:url('img/pasta.jpg')"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c1tag">Pasta</span><h3 data-i18n="brands.c1t">Паста</h3><p data-i18n="brands.c1p">Паста из твёрдых сортов пшеницы бронзовой вытяжки от ведущих производителей Тосканы, Кампании и Граньяно.</p></div>
+          </div>
+          <div class="photo-card" data-cat="sauces">
+            <div class="ph cat-tile" data-icon="🍅" style="height:200px;justify-content:flex-end"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c2tag">Sauces</span><h3 data-i18n="brands.c2t">Кремы и соусы</h3><p data-i18n="brands.c2p">Томатные соусы, кремы и заготовки для гастрономии итальянской кухни.</p></div>
+          </div>
+          <div class="photo-card" data-cat="sauces">
+            <div class="ph" style="background-image:url('img/olive-oil.jpg')"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c3tag">Oils</span><h3 data-i18n="brands.c3t">Приправы, масло и дрессинги</h3><p data-i18n="brands.c3p">Оливковое масло extra virgin, бальзамический уксус из Модены, приправы и дрессинги.</p></div>
+          </div>
+          <div class="photo-card" data-cat="gastronomy">
+            <div class="ph" style="background-image:url('img/cheese.jpg')"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c4tag">Gastronomy</span><h3 data-i18n="brands.c4t">Сыры</h3><p data-i18n="brands.c4p">Выдержанные сыры Италии — для розницы, HoReCa и гастрономических бутиков.</p></div>
+          </div>
+          <div class="photo-card" data-cat="gastronomy">
+            <div class="ph" style="background-image:url('img/charcuterie.jpg')"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c4btag">Gastronomy</span><h3 data-i18n="brands.c4bt">Мясные деликатесы</h3><p data-i18n="brands.c4bp">Прошутто, салями и мясные деликатесы — гастрономическая линия портфеля.</p></div>
+          </div>
+          <div class="photo-card" data-cat="drinks">
+            <div class="ph" style="background-image:url('img/wine.jpg')"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c5tag">Drinks</span><h3 data-i18n="brands.c5t">Вино</h3><p data-i18n="brands.c5p">Кьянти, Верментино и другие вина тосканских и итальянских аппелласьонов.</p></div>
+          </div>
+          <div class="photo-card" data-cat="drinks">
+            <div class="ph" style="background-image:url('img/coffee.jpg')"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c6tag">Drinks</span><h3 data-i18n="brands.c6t">Кофе</h3><p data-i18n="brands.c6p">Итальянские обжарки в зёрнах, молотый и капсульный формат — для дома и HoReCa.</p></div>
+          </div>
+          <div class="photo-card" data-cat="drinks">
+            <div class="ph cat-tile" data-icon="🥤" style="height:200px;justify-content:flex-end"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c7tag">Drinks</span><h3 data-i18n="brands.c7t">Напитки</h3><p data-i18n="brands.c7p">Минеральные воды, игристые напитки, итальянские аперитивы и соки.</p></div>
+          </div>
+          <div class="photo-card" data-cat="sweets">
+            <div class="ph" style="background-image:url('img/sweets.jpg')"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c8tag">Sweets</span><h3 data-i18n="brands.c8t">Сладости и кондитерские изделия</h3><p data-i18n="brands.c8p">Шоколад, пралине, панеттоне, канноли и классические итальянские десерты.</p></div>
+          </div>
+          <div class="photo-card" data-cat="sweets">
+            <div class="ph cat-tile" data-icon="🍵" style="height:200px;justify-content:flex-end"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c9tag">Tea</span><h3 data-i18n="brands.c9t">Чай</h3><p data-i18n="brands.c9p">Чай и травяные настои премиум-сегмента — для розницы и HoReCa.</p></div>
+          </div>
+          <div class="photo-card" data-cat="grocery">
+            <div class="ph" style="background-image:url('img/market.jpg')"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c10tag">Grocery</span><h3 data-i18n="brands.c10t">Бакалея</h3><p data-i18n="brands.c10p">Рис, полента, бобовые, консервация и базовые продукты итальянской кухни.</p></div>
+          </div>
+          <div class="photo-card" data-cat="grocery">
+            <div class="ph cat-tile" data-icon="🥖" style="height:200px;justify-content:flex-end"></div>
+            <div class="body"><span class="tag" data-i18n="brands.c11tag">Snacks</span><h3 data-i18n="brands.c11t">Снеки</h3><p data-i18n="brands.c11p">Гриссини, таралли, крекеры и снеки в современных форматах упаковки.</p></div>
+          </div>
+        </div>
+
+        <p class="note" style="margin-top:30px;text-align:center" data-i18n="brands.note">Сетка показывает категории портфеля. Конкретные бренды добавляются по запросу под NDA — свяжитесь с нами.</p>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+        <h2 data-i18n="brands.cta.text">Хотите получить актуальный прайс-лист и ассортимент для вашего рынка?</h2>
+        <a class="btn btn-primary" href="contacts.html" data-i18n="cta.become">Стать партнёром</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/site.js"></script>
+</body>
+</html>
