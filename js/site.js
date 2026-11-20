@@ -733,7 +733,7 @@
       '<header class="site-header"><div class="container header-inner">' +
         '<a class="logo" href="index.html"><img src="img/logo.png" alt="EasyItaly"></a>' +
         '<nav class="main-nav" id="main-nav">' + nav +
-          '<a class="btn btn-primary btn-sm" href="contacts.html" data-i18n="cta.become">Стать партнёром</a>' +
+          '<a class="btn btn-outline-dark btn-sm" href="contacts.html?role=partner" data-i18n="cta.become">Стать партнёром</a>' +
         '</nav>' +
         '<div class="header-actions">' +
           '<div class="lang-switch" id="lang-switch"><button data-lang="ru" class="active">RU</button><button data-lang="en">EN</button><button data-lang="it">IT</button><button data-lang="uz">UZ</button></div>' +
@@ -782,14 +782,21 @@
   var currentLang = "ru";
   function isValidLang(l) { return LANGS.indexOf(l) !== -1; }
 
-  /* Переписываем внутренние ссылки: /страница.html?lang=xx (ru — без параметра) */
+  /* Переписываем внутренние ссылки, сохраняя параметры роли (role=...) */
   function rewriteLinks(lang) {
     document.querySelectorAll('a[href]').forEach(function (a) {
       var href = a.getAttribute("href");
       if (!/^[a-z]+\.html(\?[^\s]*)?$/.test(href)) return;
-      var base = href.split("?")[0];
-      if (!a.getAttribute("data-base")) a.setAttribute("data-base", base);
-      a.setAttribute("href", a.getAttribute("data-base") + (lang === "ru" ? "" : "?lang=" + lang));
+      if (!a.getAttribute("data-base")) {
+        a.setAttribute("data-base", href.split("?")[0]);
+        var q = (href.split("?")[1] || "").split("&").filter(function (p) { return p && p.indexOf("lang=") !== 0; });
+        if (q.length) a.setAttribute("data-role-param", q.join("&"));
+      }
+      var parts = [];
+      var rp = a.getAttribute("data-role-param");
+      if (rp) parts.push(rp);
+      if (lang !== "ru") parts.push("lang=" + lang);
+      a.setAttribute("href", a.getAttribute("data-base") + (parts.length ? "?" + parts.join("&") : ""));
     });
   }
 
@@ -923,6 +930,18 @@
       if (saved && isValidLang(saved)) initial = saved;
     }
     setLang(initial);
+
+    // Предвыбор типа заявки из параметра ?role= (producer | partner)
+    try {
+      var rp = new URLSearchParams(window.location.search).get("role");
+      if (rp) {
+        var sel = document.querySelector("#contact-form select[name='role']");
+        if (sel) {
+          if (rp === "producer") sel.selectedIndex = 0;
+          else if (rp === "partner") sel.selectedIndex = 1;
+        }
+      }
+    } catch (e) {}
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
