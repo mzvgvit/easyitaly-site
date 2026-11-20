@@ -12,6 +12,7 @@
 | logistics.jpg | File:Container Ship at the Hai Phong International Container Terminal 01.jpg | CC BY-SA 4.0 | Nathan.cima |
 | charcuterie.jpg | File:Parma Ham Prosciutto 01.jpg | CC BY-SA 4.0 | Indrajit Das |
 | market.jpg | File:28 Borlotti bean variety – grocery market in Italy.jpg | CC BY 3.0 | Marek Ślusarczyk |
+| equipment.jpg | File:Multi-tier dryer of a short-cut dry pasta line.jpg | CC BY-SA 4.0 | Talia Makina ve Gıda Sanayi Ticaret A.Ş. |
 | logo.png | Фирменный логотип EasyItaly (из материалов проекта) | — | EasyItaly Srl |
 
 Изображения скачаны с commons.wikimedia.org через API. При размещении сайта
