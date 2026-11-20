@@ -13,6 +13,9 @@
 | charcuterie.jpg | File:Parma Ham Prosciutto 01.jpg | CC BY-SA 4.0 | Indrajit Das |
 | market.jpg | File:28 Borlotti bean variety – grocery market in Italy.jpg | CC BY 3.0 | Marek Ślusarczyk |
 | equipment.jpg | File:Multi-tier dryer of a short-cut dry pasta line.jpg | CC BY-SA 4.0 | Talia Makina ve Gıda Sanayi Ticaret A.Ş. |
+| sauces.jpg | File:Fresh Tomato Sauce (Unsplash).jpg | CC0 | Dennis Klein |
+| beverages.jpg | File:(20240728) Rotterdam V11 Aperol Spritz.jpg | CC BY-SA 4.0 | Roy Zuo |
+| tea.jpg | File:Loose Leaf Tisanes - Sparrows Coffee.jpg | CC BY 2.0 | Steven Depolo |
 | logo.png | Фирменный логотип EasyItaly (из материалов проекта) | — | EasyItaly Srl |
 
 Изображения скачаны с commons.wikimedia.org через API. При размещении сайта

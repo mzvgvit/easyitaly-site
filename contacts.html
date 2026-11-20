@@ -39,49 +39,16 @@
       <div class="container">
         <span class="eyebrow" data-i18n="contacts.hero.eyebrow">Контакты</span>
         <h1 data-i18n="contacts.hero.title">Напишите нам</h1>
-        <p class="lead" data-i18n="contacts.hero.lead">Оставьте запрос на русском или английском — бизнес-запросы мы рассматриваем в течение двух рабочих дней.</p>
+        <p class="lead" data-i18n="contacts.hero.lead">Прямые контакты EasyItaly Srl — бизнес-запросы мы рассматриваем в течение двух рабочих дней.</p>
       </div>
     </section>
 
     <section class="section">
       <div class="container split" style="align-items:start">
-        <!-- Форма -->
-        <div class="reveal">
-          <div class="section-head" style="margin-bottom:28px">
-            <div class="kicker" data-i18n="contacts.form.kicker">Форма запроса</div>
-            <h2 data-i18n="contacts.form.title">Написать нам</h2>
-          </div>
-          <form id="contact-form" novalidate>
-            <div class="form-grid">
-              <div><label data-i18n="contacts.form.name">Ваше имя</label>
-                <input name="name" required data-i18n-ph="contacts.form.namePh" placeholder="Имя и фамилия"></div>
-              <div><label data-i18n="contacts.form.company">Компания</label>
-                <input name="company" data-i18n-ph="contacts.form.companyPh" placeholder="Название компании"></div>
-              <div><label data-i18n="contacts.form.country">Страна / рынок</label>
-                <input name="country" data-i18n-ph="contacts.form.countryPh" placeholder="например, Казахстан"></div>
-              <div><label data-i18n="contacts.form.email">E-mail</label>
-                <input type="email" name="email" data-i18n-ph="contacts.form.emailPh" placeholder="name@company.com"></div>
-              <div class="full"><label data-i18n="contacts.form.role">Вы</label>
-                <select name="role">
-                  <option data-i18n="contacts.form.role1">Производитель (хочу войти в портфель)</option>
-                  <option data-i18n="contacts.form.role2">Импортёр / дистрибьютор (интересует портфель)</option>
-                  <option data-i18n="contacts.form.role3">Другой запрос</option>
-                </select></div>
-              <div class="full"><label data-i18n="contacts.form.lang">Предпочтительный язык</label>
-                <select name="lang">
-                  <option>Русский</option>
-                  <option>English</option>
-                  <option>Italiano</option>
-                </select></div>
-              <div class="full"><label data-i18n="contacts.form.msg">Сообщение</label>
-                <textarea name="message" data-i18n-ph="contacts.form.msgPh" placeholder="Кратко о запросе: продукты, объёмы, рынок…"></textarea></div>
-              <div class="full">
-                <button type="submit" class="btn btn-primary" data-i18n="contacts.form.btn">Отправить запрос</button>
-                <div class="form-success" id="form-success" data-i18n="contacts.form.success">Черновик письма готов — сейчас откроется ваша почтовая программа.</div>
-                <p class="note" style="margin-top:12px" data-i18n="contacts.form.note">Форма работает через e-mail. Для продакшн-версии сайта подключите её к почтовому сервису.</p>
-              </div>
-            </div>
-          </form>
+        <!-- Фотография Тосканы -->
+        <div class="reveal photo">
+          <img src="img/tuscany.jpg" alt="Холмы Тосканы в вечернем свете, Италия">
+          <p class="note" style="margin-top:12px" data-i18n="contacts.photo.caption">Тоскана, Италия — отсюда мы работаем с миром.</p>
         </div>
 
         <!-- Прямые контакты -->
@@ -93,7 +60,7 @@
           </div>
           <div class="contact-item"><div class="icon">📍</div><div><h4 data-i18n="contacts.info.addressT">Офис</h4><p data-i18n="contacts.info.address">Тоскана, Италия</p></div></div>
           <div class="contact-item"><div class="icon">✉️</div><div><h4 data-i18n="contacts.info.emailT">E-mail</h4><p data-i18n="contacts.info.email">manager@easyitaly.info</p></div></div>
-          <div class="contact-item"><div class="icon">🗣️</div><div><h4 data-i18n="contacts.info.langsT">Языки</h4><p data-i18n="contacts.info.langs">Русский, английский, итальянский — ведём переговоры на удобном вам языке</p></div></div>
+          <div class="contact-item"><div class="icon">🗣️</div><div><h4 data-i18n="contacts.info.langsT">Языки</h4><p data-i18n="contacts.info.langs">Итальянский, русский, английский — ведём переговоры на удобном вам языке</p></div></div>
 
           <div style="margin-top:34px">
             <h3 style="font-size:16px" data-i18n="contacts.markets.title">С какими рынками работаем</h3>
@@ -101,6 +68,13 @@
             <div class="flag-stripe" style="margin-top:18px"></div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+        <h2 data-i18n="contacts.cta.text">Заполните заявку — обсудим поставки итальянских продуктов на ваш рынок.</h2>
+        <a class="btn btn-primary" href="become-partner.html?role=partner" data-i18n="cta.become">Стать партнёром</a>
       </div>
     </section>
   </main>

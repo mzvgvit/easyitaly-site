@@ -39,9 +39,12 @@
     "home.hero.btn": "Become a Partner",
     "home.hero.btn2": "Our Portfolio",
     "home.stats.1num": "2019", "home.stats.1lbl": "Founded in Tuscany",
-    "home.stats.2num": "2", "home.stats.2lbl": "Focus regions — Asia & CIS",
+    "home.stats.2num": "9", "home.stats.2lbl": "CIS countries in export focus",
     "home.stats.3num": "10+", "home.stats.3lbl": "Product categories",
-    "home.stats.4num": "3", "home.stats.4lbl": "Working languages — RU · EN · IT",
+    "home.stats.4num": "3", "home.stats.4lbl": "Working languages — IT · RU · EN",
+    "become.hero.eyebrow": "Become a Partner",
+    "become.hero.title": "Partnership Application",
+    "become.hero.lead": "Fill in the form — we answer business inquiries within two working days.",
     "home.mission.kicker": "Our Mission",
     "home.mission.title": "The taste of Italy, open to the world",
     "home.mission.p1": "EasyItaly was founded in 2019 in the very heart of Tuscany — a region rightly considered one of Italy's gastronomic jewels, renowned for its culinary traditions, product quality and culture of taste.",
@@ -287,7 +290,7 @@
     /* contacts.html */
     "contacts.hero.eyebrow": "Contacts",
     "contacts.hero.title": "Get in touch",
-    "contacts.hero.lead": "Submit a request in Russian or English — we answer business inquiries within two working days.",
+    "contacts.hero.lead": "Reach us directly — business inquiries are answered within two working days.",
     "contacts.form.kicker": "Request Form",
     "contacts.form.title": "Write to us",
     "contacts.form.name": "Your name",
@@ -319,7 +322,9 @@
     "contacts.info.phoneT": "Phone",
     "contacts.info.phone": "+39 XXX XXX XXXX — to be added",
     "contacts.info.langsT": "Languages",
-    "contacts.info.langs": "Russian, English, Italian — we run negotiations in the language convenient for you",
+    "contacts.info.langs": "Italian, Russian, English — we run negotiations in the language convenient for you",
+    "contacts.photo.caption": "Tuscany, Italy — our home base for working with the world.",
+    "contacts.cta.text": "Fill in the application — and we will discuss supplies of Italian products to your market.",
     "contacts.markets.kicker": "Directions",
     "contacts.markets.title": "Markets we serve",
     "contacts.markets.title": "We work with markets",
@@ -349,9 +354,12 @@
     "home.hero.lead": "EasyItaly è un distributore internazionale di prodotti gourmet italiani. Portiamo il gusto dell’Italia in Asia e nella CSI — qualità, tradizione e cura in ogni consegna.",
     "home.hero.btn": "Diventa partner", "home.hero.btn2": "Il nostro portafoglio",
     "home.stats.1num": "2019", "home.stats.1lbl": "anno di fondazione in Toscana",
-    "home.stats.2num": "2", "home.stats.2lbl": "regioni focus — Asia e CSI",
+    "home.stats.2num": "9", "home.stats.2lbl": "Paesi della CSI nel focus export",
     "home.stats.3num": "10+", "home.stats.3lbl": "categorie di prodotto in portafoglio",
-    "home.stats.4num": "3", "home.stats.4lbl": "Lingue di lavoro — RU · EN · IT",
+    "home.stats.4num": "3", "home.stats.4lbl": "Lingue di lavoro — IT · RU · EN",
+    "become.hero.eyebrow": "Diventa partner",
+    "become.hero.title": "Richiesta di partnership",
+    "become.hero.lead": "Compilate il modulo — le richieste commerciali le esaminiamo entro due giorni lavorativi.",
     "home.mission.kicker": "La nostra missione", "home.mission.title": "Il gusto dell’Italia, aperto al mondo",
     "home.mission.p1": "EasyItaly è stata fondata nel 2019 nel cuore della Toscana — una regione giustamente considerata una delle perle gastronomiche d’Italia, rinomata per le tradizioni culinarie, la qualità dei prodotti e la cultura del gusto.",
     "home.mission.p2": "La nostra missione è presentare ai mercati internazionali i migliori prodotti di manifattura italiana. Uniamo i produttori italiani a partner e consumatori di tutto il mondo.",
@@ -503,7 +511,7 @@
     "partners.cta.text": "Scriveteci per ricevere un’offerta commerciale adattata al vostro mercato.",
 
     "contacts.hero.eyebrow": "Contatti", "contacts.hero.title": "Scriveteci",
-    "contacts.hero.lead": "Inviate una richiesta in russo o in inglese — le richieste commerciali le esaminiamo entro due giorni lavorativi.",
+    "contacts.hero.lead": "Contattateci direttamente — le richieste commerciali le esaminiamo entro due giorni lavorativi.",
     "contacts.form.kicker": "Modulo di richiesta", "contacts.form.title": "Scrivete a noi",
     "contacts.form.name": "Il vostro nome", "contacts.form.namePh": "Nome e cognome",
     "contacts.form.company": "Azienda", "contacts.form.companyPh": "Nome dell’azienda",
@@ -524,7 +532,9 @@
     "contacts.info.addressT": "Ufficio", "contacts.info.address": "Toscana, Italia",
     "contacts.info.emailT": "E-mail", "contacts.info.email": "manager@easyitaly.info",
     "contacts.info.phoneT": "Telefono", "contacts.info.phone": "+39 XXX XXX XXXX — da aggiungere",
-    "contacts.info.langsT": "Lingue", "contacts.info.langs": "Russo, inglese, italiano — conduciamo le trattative nella lingua più comoda per voi",
+    "contacts.info.langsT": "Lingue", "contacts.info.langs": "Italiano, russo, inglese — conduciamo le trattative nella lingua più comoda per voi",
+    "contacts.photo.caption": "Toscana, Italia — da qui lavoriamo con il mondo.",
+    "contacts.cta.text": "Compilate la richiesta — discutiamo le forniture di prodotti italiani sul vostro mercato.",
     "contacts.markets.kicker": "Direzioni", "contacts.markets.title": "Con quali mercati lavoriamo",
     "contacts.markets.p": "Il focus principale sono i paesi dell’Asia e della CSI. Se il vostro mercato non è nell’elenco — scrivete comunque: apriamo regolarmente nuove direzioni."
   };
@@ -545,10 +555,10 @@
       '<header class="site-header"><div class="container header-inner">' +
         '<a class="logo" href="index.html"><img src="img/logo.png" alt="EasyItaly"></a>' +
         '<nav class="main-nav" id="main-nav">' + nav +
-          '<a class="btn btn-outline-dark btn-sm" href="partners.html?role=partner" data-i18n="cta.become">Стать партнёром</a>' +
+          '<a class="btn btn-outline-dark btn-sm" href="become-partner.html?role=partner" data-i18n="cta.become">Стать партнёром</a>' +
         '</nav>' +
         '<div class="header-actions">' +
-          '<div class="lang-switch" id="lang-switch"><button data-lang="ru" class="active">RU</button><button data-lang="en">EN</button><button data-lang="it">IT</button></div>' +
+          '<div class="lang-switch" id="lang-switch"><button data-lang="it">IT</button><button data-lang="ru" class="active">RU</button><button data-lang="en">EN</button></div>' +
           '<button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>' +
         '</div>' +
       '</div></header>';
@@ -577,7 +587,7 @@
         '</ul></div>' +
         '<div><h4 data-i18n="footer.contacts">Контакты</h4><ul>' +
           '<li data-i18n="footer.address">Тоскана, Италия (полный адрес добавляется)</li>' +
-          '<li data-i18n="footer.email">manager@easyitaly.info</li>' +
+          '<li><a href="mailto:manager@easyitaly.info" data-i18n="footer.email">manager@easyitaly.info</a></li>' +
           '<li>easyitaly.com &middot; Tuscany</li>' +
         '</ul></div>' +
       '</div></div>' +
