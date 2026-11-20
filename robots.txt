@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.easyitaly.com/sitemap.xml
+Sitemap: https://mzvgvit.github.io/easyitaly-site/sitemap.xml
